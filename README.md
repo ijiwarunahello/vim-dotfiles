@@ -10,7 +10,7 @@
 ## Cloning
 
 ```bash
-cd <any_wordspace>
+cd
 git clone https://github.com/chigrii/vim-dotfiles
 ln -sf ~/vim-dotfiles/.vimrc ~/.vimrc
 ```
