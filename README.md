@@ -4,6 +4,7 @@
 
 - Mac OS X Mojave 10.14
 - Ubuntu 16.04
+- Raspbian GNU/Linux 9.9 (stretch)
 
 # Setup
 
