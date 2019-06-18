@@ -4,15 +4,16 @@
 
 - Mac OS X Mojave 10.14
 - Ubuntu 16.04
+- Raspbian GNU/Linux 9.9 (stretch)
 
 # Setup
 
 ## Cloning
 
 ```bash
-cd
+cd ~/github	# your origin directory
 git clone https://github.com/chigrii/vim-dotfiles
-ln -sf ~/vim-dotfiles/.vimrc ~/.vimrc
+ln -sf ~/github/vim-dotfiles/.vimrc ~/.vimrc
 ```
 
 ## Install vim-plug(Must)

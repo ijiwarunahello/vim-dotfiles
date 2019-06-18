@@ -1,3 +1,3 @@
-source ~/vim-dotfiles/basic.vim
-source ~/vim-dotfiles/vimplug.vim
-source ~/vim-dotfiles/indent.vim
+source ~/github/vim-dotfiles/basic.vim
+source ~/github/vim-dotfiles/vimplug.vim
+source ~/github/vim-dotfiles/indent.vim
