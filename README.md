@@ -11,9 +11,9 @@
 ## Cloning
 
 ```bash
-cd
+cd ~/github	# your origin directory
 git clone https://github.com/chigrii/vim-dotfiles
-ln -sf ~/vim-dotfiles/.vimrc ~/.vimrc
+ln -sf ~/github/vim-dotfiles/.vimrc ~/.vimrc
 ```
 
 ## Install vim-plug(Must)
