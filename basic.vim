@@ -9,7 +9,7 @@ set incsearch
 " 改行したとき、自動でインデントを挿入する
 set smartindent
 " vimが自動生成するtab幅の設定
-set shiftwidth=4
+set shiftwidth=2
 " ヤンクをクリップボードにコピーする
 set clipboard=unnamedplus
 " マウスカーソル有効化
