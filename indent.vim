@@ -10,5 +10,5 @@ autocmd FileType javascript setl shiftwidth=4 tabstop=2 softtabstop=2
 au BufRead,BufNewFile *.md set filetype=markdown
 
 " Launch
-au BufNewFile,BufRead *.launch :set filetype=xml
+au BufNewFile,BufRead *.launch set filetype=xml
 autocmd FileType launch setl expandtab shiftwidth=2 tabstop=2
