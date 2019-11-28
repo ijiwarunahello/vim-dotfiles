@@ -7,8 +7,10 @@ set shiftwidth=4
 set clipboard+=unnamed
 set mouse=a
 set tabstop=4
-
 set backspace=indent,eol,start
+set cursorline
+hi clear CursorLine
+hi CursorLineNr term=bold cterm=NONE ctermfg=165 ctermbg=NONE
 
 if has('persistent_undo')
 	set undofile
