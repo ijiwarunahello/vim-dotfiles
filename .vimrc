@@ -1,3 +1,4 @@
-source ~/github/vim-dotfiles/basic.vim
-source ~/github/vim-dotfiles/vimplug.vim
-source ~/github/vim-dotfiles/indent.vim
+let $WORK_DIR=getcwd()
+source $WORK_DIR/basic.vim
+source $WORK_DIR/vimplug.vim
+source $WORK_DIR/indent.vim
