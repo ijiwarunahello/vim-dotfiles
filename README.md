@@ -16,9 +16,17 @@ git clone https://github.com/chigrii/vim-dotfiles
 ln -sf ~/github/vim-dotfiles/.vimrc ~/.vimrc
 ```
 
-## Install vim-plug(Must)
+## Auto install
 
-### Unix(vim)
+```bash
+./install.sh
+```
+
+## Manual install
+
+### vim-plug(Must)
+
+#### Unix(vim)
 
 ```bash
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
