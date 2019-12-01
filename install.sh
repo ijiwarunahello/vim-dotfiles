@@ -1,8 +1,6 @@
 #/bin/bash
 # constant
 CURRENT_DIR=`pwd`
-VIMPLUG_INSTALL_DIR="~/.vim/autoload/"
-VIMPLUG_FILENAME="plug.vim"
 
 # install vimplug if not exists
 if [ -e ~/.vim/autoload/plug.vim ]; then
