@@ -1,18 +1,21 @@
 #!/bin/bash
 # constant
 CURRENT_DIR=`pwd`
+# output color scheme
+GREEN='\033[32m%s\033[m\n'
+YELLOW='\033[33m%s\033[m\n'
 
 # install vimplug if not exists
 if [ -e ~/.vim/autoload/plug.vim ]; then
-    echo -e "\e[1;32mvimplug already installed. skipped.\e[m"
+    printf $GREEN "vimplug already installed. skipped."
 else
-    echo -e "\e[1;33mvimplug install...\e[m"
+    printf $YELLOW "vimplug install..."
     curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
         https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-    echo -e "\e[1;32mdone.\e[m"
+    printf $GREEN "done."
 fi
 
-echo -e "\e[1;33mcreate vimrc...\e[m"
+printf $YELLOW "create vimrc..."
 tee ~/.vimrc <<EOF
 source $CURRENT_DIR/basic.vim
 source $CURRENT_DIR/indent.vim
