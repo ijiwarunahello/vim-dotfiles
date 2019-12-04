@@ -12,6 +12,9 @@ else
     echo "done."
 fi
 
-# setting symbolic link
-echo "setting .vimrc symbolic..."
-ln -sf $CURRENT_DIR/.vimrc ~/.vimrc
+echo -e "\e[1;33mcreate vimrc...\e[m"
+tee ~/.vimrc <<EOF
+source $CURRENT_DIR/basic.vim
+source $CURRENT_DIR/indent.vim
+source $CURRENT_DIR/vimplug.vim
+EOF
