@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 # constant
 CURRENT_DIR=`pwd`
 
