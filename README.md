@@ -3,6 +3,7 @@
 # Environment
 
 - Mac OS X Mojave 10.14
+- Mac OS X Catalina 10.15
 - Ubuntu 16.04
 - Raspbian GNU/Linux 9.9 (stretch)
 
@@ -11,9 +12,8 @@
 ## Cloning
 
 ```bash
-cd ~/github	# your origin directory
+cd ~/<YOUR ORIGIN DIRECTORY>
 git clone https://github.com/chigrii/vim-dotfiles
-ln -sf ~/github/vim-dotfiles/.vimrc ~/.vimrc
 ```
 
 ## Auto install
