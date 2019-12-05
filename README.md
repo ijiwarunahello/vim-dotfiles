@@ -12,9 +12,8 @@
 ## Cloning
 
 ```bash
-cd ~/github	# your origin directory
+cd ~/<YOUR ORIGIN DIRECTORY>
 git clone https://github.com/chigrii/vim-dotfiles
-ln -sf ~/github/vim-dotfiles/.vimrc ~/.vimrc
 ```
 
 ## Auto install
